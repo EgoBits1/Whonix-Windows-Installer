@@ -29,8 +29,8 @@ Filename: msiexec.exe; Parameters: "/i ""{tmp}\virtualbox_x64.msi"" INSTALLDIR="
 
 Filename: msiexec.exe; Parameters: "/i ""{tmp}\virtualbox_x86.msi"" INSTALLDIR=""{app}"" /quiet"; Flags: skipifdoesntexist runascurrentuser; StatusMsg: "VirtualBox is being installed. Please Wait..."
 
-Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_gateway.ova"" --vsys 0 --eula accept"; StatusMsg: "Importing Whonix Gateway. Please Wait..."
+Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_gateway.ova"" --vsys 0 --eula accept"; Flags: runhidden; StatusMsg: "Importing Whonix Gateway. Please Wait..."
 
-Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_workstation.ova"" --vsys 0 --eula accept"; StatusMsg: "Importing Whonix Workstation. Please Wait..."
+Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_workstation.ova"" --vsys 0 --eula accept"; Flags: runhidden; StatusMsg: "Importing Whonix Workstation. Please Wait..."
 
-Filename: "{app}\Whonix.exe"; Description: Run Whonix after install
+Filename: "{app}\Whonix.exe"; Flags: nowait postinstall
