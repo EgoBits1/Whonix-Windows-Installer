@@ -7,6 +7,7 @@ OutputBaseFilename=InstallWhonix
 UninstallDisplayIcon={app}\Whonix.exe
 LicenseFile=license.txt
 SetupIconFile=logo.ico
+AllowNoIcons=yes
 Compression=lzma2
 ArchitecturesInstallIn64BitMode=x64
 DiskSpanning=yes
