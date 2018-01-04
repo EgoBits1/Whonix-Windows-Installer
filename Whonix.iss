@@ -1,12 +1,16 @@
+#define MyAppName "Whonix"
+#define MyAppExeName "Whonix.exe"
+#define MyAppIcoName "logo.ico"
+
 [Setup]
-AppName=Whonix
+AppName={#MyAppName}
 AppVersion=13.0.0.1.4
-DefaultDirName={pf}\Whonix
-DefaultGroupName=Whonix
+DefaultDirName={pf}\{#MyAppName}
+DefaultGroupName={#MyAppName}
 OutputBaseFilename=InstallWhonix
-UninstallDisplayIcon={app}\Whonix.exe
+UninstallDisplayIcon={app}\{#MyAppExeName}
 LicenseFile=license.txt
-SetupIconFile=logo.ico
+SetupIconFile={#MyAppIcoName}
 AllowNoIcons=yes
 Compression=none
 ArchitecturesInstallIn64BitMode=x64
@@ -37,9 +41,11 @@ Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_workstation
 Filename: "{app}\Whonix.exe"; Flags: nowait postinstall
 
 [Icons]
-Name: "{group}\Whonix"; Filename: "{app}\Whonix.exe"; WorkingDir: "{app}"
+Name: "{userdesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 
-Name: "{group}\Whonix"; Filename: "{uninstallexe}"
+Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
+
+Name: "{group}\{#MyAppName}"; Filename: "{uninstallexe}"
 
 [UninstallRun]
 
