@@ -39,7 +39,7 @@ Filename: "{app}\Whonix.exe"; Flags: nowait postinstall
 [Icons]
 Name: "{group}\Whonix"; Filename: "{app}\Whonix.exe"; WorkingDir: "{app}"
 
-Name: "{group}\Uninstall Whonix"; Filename: "{uninstallexe}"
+Name: "{group}\Whonix"; Filename: "{uninstallexe}"
 
 [UninstallRun]
 
