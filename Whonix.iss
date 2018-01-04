@@ -56,3 +56,7 @@ Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Workstation -
 Filename: msiexec.exe; Parameters: "/x ""{app}\virtualbox_x64.msi"" /quiet"; Flags: skipifdoesntexist runascurrentuser; StatusMsg: "Removing previous VirtualBox install. Please wait..."
 
 Filename: msiexec.exe; Parameters: "/x ""{app}\virtualbox_x86.msi"" /quiet"; Flags: skipifdoesntexist runascurrentuser; StatusMsg: "Removing previous VirtualBox install. Please wait..."
+
+[UninstallDelete]
+
+Type: dirifempty; Name: "{app}"
