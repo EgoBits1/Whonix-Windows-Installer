@@ -8,7 +8,7 @@ UninstallDisplayIcon={app}\Whonix.exe
 LicenseFile=license.txt
 SetupIconFile=logo.ico
 AllowNoIcons=yes
-Compression=lzma2
+Compression=none
 ArchitecturesInstallIn64BitMode=x64
 DiskSpanning=yes
 PrivilegesRequired=admin
@@ -35,6 +35,11 @@ Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_gateway.ova
 Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_workstation.ova"" --vsys 0 --eula accept"; Flags: runhidden; StatusMsg: "Importing Whonix Workstation. Please Wait..."
 
 Filename: "{app}\Whonix.exe"; Flags: nowait postinstall
+
+[Icons]
+Name: "{group}\Whonix"; Filename: "{app}\Whonix.exe"; WorkingDir: "{app}"
+
+Name: "{group}\Uninstall Whonix"; Filename: "{uninstallexe}"
 
 [UninstallRun]
 
