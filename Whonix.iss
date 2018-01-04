@@ -43,7 +43,7 @@ Filename: "{app}\Whonix.exe"; Flags: nowait postinstall
 [Icons]
 Name: "{userdesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 
-Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
+Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; WorkingDir: "{app}"
 
 Name: "{group}\{#MyAppName}"; Filename: "{uninstallexe}"
 
