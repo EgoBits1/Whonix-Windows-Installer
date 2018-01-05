@@ -45,6 +45,8 @@ Name: "{userdesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 
+Name: "{group}\Uninstall Whonix"; Filename: "{uninstallexe}"
+
 [UninstallRun]
 
 Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Gateway --delete"; Flags: runhidden; StatusMsg: "Removing Whonix Gateway. Please Wait..."
@@ -56,5 +58,8 @@ Filename: msiexec.exe; Parameters: "/x ""{app}\virtualbox_x64.msi"" /quiet"; Fla
 Filename: msiexec.exe; Parameters: "/x ""{app}\virtualbox_x86.msi"" /quiet"; Flags: skipifdoesntexist runascurrentuser; StatusMsg: "Removing previous VirtualBox install. Please wait..."
 
 [UninstallDelete]
+Type: dirifempty; Name: "{%USERPROFILE}\VirtualBox VMs"
+
+Type: filesandordirs; Name: "{%USERPROFILE}\.VirtualBox"
 
 Type: dirifempty; Name: "{app}"
