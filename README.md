@@ -8,7 +8,7 @@ The Whonix-Installer for Windows is a simple and fast way to set-up Whonix on a 
 * The newest build of the VirtualBox-Installer found here under "Windows hosts": https://www.virtualbox.org/wiki/Downloads?replytocom=98578
 * The newest version of Inno Setup Unicode, a tool for easily creating installers, found here: http://www.jrsoftware.org/isdl.php
 * Whonix-UI, which can be obtained from here: https://github.com/EgoBits1/Whonix-Windows-UI/releases
-** OR built from source as well via this guide: [[Building Whonix-UI for Windows]]
+** OR built from source as well via this guide: https://www.whonix.org/wiki/Building_Whonix-UI_for_Windows
 * The Source for the installer, the logo and license text, found here: https://github.com/EgoBits1/Whonix-Windows-Installer
 
 = Preparing the files =
