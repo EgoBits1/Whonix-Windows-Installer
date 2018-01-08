@@ -16,7 +16,7 @@ The following instructions will tell you how to build the Whonix-Installer for W
 * The newest version of Inno Setup Unicode, a tool for easily creating installers, found here: http://www.jrsoftware.org/isdl.php
 * Whonix-UI, which can be obtained from here: https://github.com/EgoBits1/Whonix-Windows-UI/releases
 ** OR built from source as well via this guide: https://www.whonix.org/wiki/Building_Whonix-UI_for_Windows
-* The Source for the installer, the logo, the license text and the batch file handling the compilation, found here: https://github.com/EgoBits1/Whonix-Windows-Installer
+* The Source for the installer, the logo, the license text, configuration files and the batch file handling the compilation, found here: https://github.com/EgoBits1/Whonix-Windows-Installer
 
 = Preparing the files =
 
@@ -32,7 +32,7 @@ Once this has been finished, a window will open telling you where these three fi
 
 Furthermore, put the Whonix-Workstation and Whonix-Gateway Images in the same folder and rename them "whonix_gateway.ova" and "whonix_workstation.ova" respectively.
 
-Now, put the source files ("Whonix.iss", "logo.ico", "license.txt", "MakeInstaller.bat") inside the same folder as the other files. Furthremore, include Whonix-UI ("Whonix.exe"), as well as "7za.exe".
+Now, put the source files ("Whonix.iss", "logo.ico", "license.txt", "MakeInstaller.bat", "config.txt") inside the same folder as the other files. Furthremore, include Whonix-UI ("Whonix.exe"), as well as "7za.exe".
 
 Now, you should have the following files in the folder:
 
@@ -47,6 +47,7 @@ Now, you should have the following files in the folder:
 * license.txt
 * 7za.exe
 * MakeInstaller.bat
+* config.txt
 
 With this, the preparation is finished and we can get on to building the Installer.
 
