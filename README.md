@@ -12,11 +12,10 @@ The following instructions will tell you how to build the Whonix-Installer for W
 
 * The Whonix-Gateway and Whonix-Workstation Images for VirtualBox found here: https://www.whonix.org/wiki/VirtualBox
 * The newest build of the VirtualBox-Installer found here under "Windows hosts": https://www.virtualbox.org/wiki/Downloads?replytocom=98578
-* The newest version of "7zsd.sfx", found here under 7-Zip Extra 9.20: http://www.7-zip.org/download.html
 * The newest version of Inno Setup Unicode, a tool for easily creating installers, found here: http://www.jrsoftware.org/isdl.php
 * Whonix-UI, which can be obtained from here: https://github.com/EgoBits1/Whonix-Windows-UI/releases
 ** OR built from source as well via this guide: https://www.whonix.org/wiki/Building_Whonix-UI_for_Windows
-* The Source for the installer, the logo, the license text, configuration files and the batch file handling the compilation, found here: https://github.com/EgoBits1/Whonix-Windows-Installer
+* The Source for the installer, the logo, the license text, "7zsd.sfx", configuration files and the batch file handling the compilation, found here: https://github.com/EgoBits1/Whonix-Windows-Installer
 
 = Preparing the files =
 
