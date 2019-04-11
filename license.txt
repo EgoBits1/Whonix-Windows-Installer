@@ -18,7 +18,8 @@ They have been marked accordingly.
 
 ###############################################################################
 
-Regarding the Installer and Whonix-UI, this MIT License applies:
+Regarding the Whonix-Windows-Installer and Whonix-Windows-UI, this MIT License
+applies:
 
 MIT License
 
