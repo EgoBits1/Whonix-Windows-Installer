@@ -1,3 +1,7 @@
+License Agreement
+
+###############################################################################
+
 There is no magic pill for anonymity. The more you learn about Whonix, Tor, and
 threats to your privacy, the safer you can become.
 Whonix is produced independently of, and carries no guarantee from The Tor
