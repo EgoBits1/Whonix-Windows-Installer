@@ -2,7 +2,7 @@
 
 The Whonix-Installer for Windows is a simple and fast way to set-up Whonix on a system running Microsoft Windows.
 
-A pre-compiled version may be optained via this link: 
+A pre-compiled version may be optained via this link:
 
 = Compiling the Whonix-Installer yourself =
 
