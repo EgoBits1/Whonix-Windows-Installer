@@ -1,9 +1,14 @@
-There is no magic pill for anonymity. The more you learn about Whonix, Tor, and threats to your privacy, the safer you can become.
-Whonix is produced independently of, and carries no guarantee from The Tor Project.
+There is no magic pill for anonymity. The more you learn about Whonix, Tor, and
+threats to your privacy, the safer you can become.
+Whonix is produced independently of, and carries no guarantee from The Tor
+Project.
 Whonix is experimental software. Do not rely on it for strong anonymity.
 
 Preliminary notes:
-Due to the fact that this Installer has bundled multiple different projects together, for which the creators decided to use different licenses, following are three different licenses for the different projects used as a source. They have been marked accordingly.
+Due to the fact that this Installer has bundled multiple different projects
+together, for which the creators decided to use different licenses, following
+are three different licenses for the different projects used as a source.
+They have been marked accordingly.
 
 Regarding the Installer and Whonix-UI, this MIT License applies:
 
