@@ -34,9 +34,9 @@ Filename: msiexec.exe; Parameters: "/i ""{app}\virtualbox_x64.msi"" INSTALLDIR="
 
 Filename: msiexec.exe; Parameters: "/i ""{app}\virtualbox_x86.msi"" INSTALLDIR=""{app}"" /quiet"; Flags: skipifdoesntexist runascurrentuser; StatusMsg: "VirtualBox is being installed. Please Wait..."
 
-Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_gateway.ova"" --vsys 0 --eula accept"; Flags: runhidden; StatusMsg: "Importing Whonix Gateway. Please Wait..."
+Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_gateway.ova"" --vsys 0 --eula accept"; Flags: runhidden; StatusMsg: "Importing Whonix-Gateway. Please Wait..."
 
-Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_workstation.ova"" --vsys 0 --eula accept"; Flags: runhidden; StatusMsg: "Importing Whonix Workstation. Please Wait..."
+Filename: "{app}\VboxManage.exe"; Parameters: "import ""{tmp}\whonix_workstation.ova"" --vsys 0 --eula accept"; Flags: runhidden; StatusMsg: "Importing Whonix-Workstation. Please Wait..."
 
 Filename: "{app}\Whonix.exe"; Flags: nowait postinstall
 
@@ -49,9 +49,9 @@ Name: "{group}\Uninstall Whonix"; Filename: "{uninstallexe}"
 
 [UninstallRun]
 
-Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Gateway --delete"; Flags: runhidden; StatusMsg: "Removing Whonix Gateway. Please Wait..."
+Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Gateway --delete"; Flags: runhidden; StatusMsg: "Removing Whonix-Gateway. Please Wait..."
 
-Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Workstation --delete"; Flags: runhidden; StatusMsg: "Removing Whonix Workstation. Please Wait..."
+Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Workstation --delete"; Flags: runhidden; StatusMsg: "Removing Whonix-Workstation. Please Wait..."
 
 Filename: msiexec.exe; Parameters: "/x ""{app}\virtualbox_x64.msi"" /quiet"; Flags: skipifdoesntexist runascurrentuser; StatusMsg: "Removing previous VirtualBox install. Please wait..."
 

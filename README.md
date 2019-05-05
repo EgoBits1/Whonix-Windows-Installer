@@ -23,7 +23,7 @@ The following instructions will tell you how to build the Whonix-Installer for W
 
 First and foremost, install Inno Setup Unicode on your system.
 
-Now, we may continue by "taking" the VirtualBox-Installer .exe "apart". This is necessary because the .exe actually contains two Microsoft Software Installation (.msi) based Installers, one for x64 and one for x86 systems, as well as a compressed .cab file. To seperate these files, we have to run the following command on the command line.
+Now, we may continue by "taking" the VirtualBox-Installer .exe "apart". This is necessary because the .exe actually contains two Microsoft Software Installation (.msi) based Installers, one for x64 and one for x86 systems, as well as a compressed .cab file. To separate these files, we have to run the following command on the command line.
 
 <pre>
 VirtualBox[Characters based on your version].exe -extract
