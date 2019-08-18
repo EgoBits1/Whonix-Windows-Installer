@@ -41,9 +41,9 @@ Name: "{group}\Uninstall Whonix"; Filename: "{uninstallexe}"
 
 [UninstallRun]
 
-Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Gateway --delete"; Flags: runhidden; StatusMsg: "Removing Whonix-Gateway. Please Wait..."
+Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Gateway-XFCE --delete"; Flags: runhidden; StatusMsg: "Removing Whonix-Gateway-XFCE. Please Wait..."
 
-Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Workstation --delete"; Flags: runhidden; StatusMsg: "Removing Whonix-Workstation. Please Wait..."
+Filename: "{app}\VboxManage.exe"; Parameters: "unregistervm Whonix-Workstation-XFCE --delete"; Flags: runhidden; StatusMsg: "Removing Whonix-Workstation-XFCE. Please Wait..."
 
 Filename: msiexec.exe; Parameters: "/x ""{app}\virtualbox_x64.msi"" /quiet"; Flags: skipifdoesntexist runascurrentuser; StatusMsg: "Removing previous VirtualBox install. Please wait..."
 
