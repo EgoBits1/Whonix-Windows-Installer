@@ -9,4 +9,4 @@ endlocal
 ))>"location.bat"
 call location.bat
 7za a Installer ./Output/
-copy /b 7zSD.sfx + config.txt + Installer.7z "Install Whonix.exe"
+copy /b 7zSD.sfx + config.txt + Installer.7z whonix-installer.exe
