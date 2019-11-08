@@ -4,7 +4,7 @@
 
 [Setup]
 AppName={#MyAppName}
-AppVersion=15.0.0.3.3
+AppVersion=15.0.0.6.6
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 OutputBaseFilename=InstallWhonix
