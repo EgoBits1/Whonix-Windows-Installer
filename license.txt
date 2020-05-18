@@ -1,11 +1,25 @@
-There is no magic pill for anonymity. The more you learn about Whonix, Tor, and threats to your privacy, the safer you can become.
-Whonix is produced independently of, and carries no guarantee from The Tor Project.
+License Agreement
+
+###############################################################################
+
+There is no magic pill for anonymity. The more you learn about Whonix, Tor, and
+threats to your privacy, the safer you can become.
+Whonix is produced independently of, and carries no guarantee from The Tor
+Project.
 Whonix is experimental software. Do not rely on it for strong anonymity.
 
-Preliminary notes:
-Due to the fact that this Installer has bundled multiple different projects together, for which the creators decided to use different licenses, following are three different licenses for the different projects used as a source. They have been marked accordingly.
+###############################################################################
 
-Regarding the Installer and Whonix-UI, this MIT License applies:
+Preliminary notes:
+Due to the fact that this Installer has bundled multiple different projects
+together, for which the creators decided to use different licenses, following
+are three different licenses for the different projects used as a source.
+They have been marked accordingly.
+
+###############################################################################
+
+Regarding the Whonix-Windows-Installer and Whonix-Windows-UI, this MIT License
+applies:
 
 MIT License
 
@@ -29,26 +43,82 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Regarding Whonix by Patrick Schleizer, the following GNU GENERAL PUBLIC LICENSE v3 applies:
+###############################################################################
 
-Copyright: 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
-License: GPL-3+
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation, either version 3 of the License, or
- (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the full text of the GNU General Public
- License version 3 can be found in the file
- `/usr/share/common-licenses/GPL-3'.
+Regarding Whonix, license GPL-3+-with-additional-terms-1 applies.
+
+Copyright: 2012 - 2019 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+License: GPL-3+-with-additional-terms-1
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+.
+On Debian systems, the full text of the GNU General Public
+License version 3 can be found in the file
+`/usr/share/common-licenses/GPL-3'.
+.
+ADDITIONAL TERMS APPLICABLE per GNU GPL version 3 section 7
+.
+1. Replacement of Section 15.  Section 15 of the GPL shall be deleted in its
+entirety and replaced with the following:
+.
+15. Disclaimer of Warranty.
+.
+THE PROGRAM IS PROVIDED WITHOUT ANY WARRANTIES, WHETHER EXPRESSED OR IMPLIED,
+INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR
+PURPOSE, NON-INFRINGEMENT, TITLE AND MERCHANTABILITY.  THE PROGRAM IS BEING
+DELIVERED OR MADE AVAILABLE 'AS IS', 'WITH ALL FAULTS' AND WITHOUT WARRANTY OR
+REPRESENTATION.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
+PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+.
+2. Replacement of Section 16.  Section 16 of the GPL shall be deleted in its
+entirety and replaced with the following:
+.
+16. LIMITATION OF LIABILITY.
+.
+UNDER NO CIRCUMSTANCES SHALL ANY COPYRIGHT HOLDER OR ITS AFFILIATES, OR ANY
+OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE
+LIABLE TO YOU, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, FOR ANY
+DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, DIRECT, INDIRECT, SPECIAL,
+INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE USE OR INABILITY TO USE THE PROGRAM OR OTHER DEALINGS WITH
+THE PROGRAM(INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED
+INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE
+PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), WHETHER OR NOT ANY COPYRIGHT HOLDER
+OR SUCH OTHER PARTY RECEIVES NOTICE OF ANY SUCH DAMAGES AND WHETHER OR NOT SUCH
+DAMAGES COULD HAVE BEEN FORESEEN.
+.
+3. LEGAL NOTICES; NO TRADEMARK LICENSE; ORIGIN.  You must reproduce faithfully
+all trademark, copyright and other proprietary and legal notices on any copies
+of the Program or any other required author attributions.  This license does not
+grant you rights to use any copyright holder or any other party's name, logo, or
+trademarks.  Neither the name of the copyright holder or its affiliates, or any
+other party who modifies and/or conveys the Program may be used to endorse or
+promote products derived from this software without specific prior written
+permission.  The origin of the Program must not be misrepresented; you must not
+claim that you wrote the original Program.  Altered source versions must be
+plainly marked as such, and must not be misrepresented as being the original
+Program.
+.
+4. INDEMNIFICATION.  IF YOU CONVEY A COVERED WORK AND AGREE WITH ANY RECIPIENT
+OF THAT COVERED WORK THAT YOU WILL ASSUME ANY LIABILITY FOR THAT COVERED WORK,
+YOU HEREBY AGREE TO INDEMNIFY, DEFEND AND HOLD HARMLESS THE OTHER LICENSORS AND
+AUTHORS OF THAT COVERED WORK FOR ANY DAMAGES, DEMANDS, CLAIMS, LOSSES, CAUSES OF
+ACTION, LAWSUITS, JUDGMENTS EXPENSES (INCLUDING WITHOUT LIMITATION REASONABLE
+ATTORNEYS' FEES AND EXPENSES) OR ANY OTHER LIABILITY ARISING FROM, RELATED TO OR
+IN CONNECTION WITH YOUR ASSUMPTIONS OF LIABILITY.
+
+###############################################################################
 
 Regarding 7-Zip, GNU LGPL applies:
 
@@ -64,12 +134,12 @@ Regarding 7-Zip, GNU LGPL applies:
     1) 7z.dll: GNU LGPL + unRAR restriction
     2) All other files:  GNU LGPL
 
-  The GNU LGPL + unRAR restriction means that you must follow both 
+  The GNU LGPL + unRAR restriction means that you must follow both
   GNU LGPL rules and unRAR restriction rules.
 
 
-  Note: 
-    You can use 7-Zip on any computer, including a computer in a commercial 
+  Note:
+    You can use 7-Zip on any computer, including a computer in a commercial
     organization. You don't need to register or pay for 7-Zip.
 
 
@@ -86,8 +156,10 @@ Regarding 7-Zip, GNU LGPL applies:
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
     Lesser General Public License for more details.
 
-    You can receive a copy of the GNU Lesser General Public License from 
+    You can receive a copy of the GNU Lesser General Public License from
     http://www.gnu.org/
+
+###############################################################################
 
 Regarding VirtualBox by Oracle, the GNU GENERAL PUBLIC LICENSE v2 applies:
 
